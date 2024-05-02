@@ -1,0 +1,18 @@
+# Introduction
+This book is dedicated to all those good people giving their time and energy, even sometimes in some places, their freedom or even their lives, to do something they truly value. This is a book on anonymity and privacy in this lush forest full of data hunters called the internet.
+
+Every species in this jungle has one thing in common: they all have data they want to protect, even if they don't want to admit it. Even if they say they have nothing to hide, and maybe they're right. I don't hide my credit card credentials either, but I never want anyone who I don't trust to have their hands on them. And that's what privacy is.
+
+Privacy is a human right, and nobody should have the right to take it away from someone else. Unfortunately, we live in a world where our rights mean nothing. Companies, doxxers, governments, spy agencies—everyone violates our right to privacy every day. And they won't stop; they profit from our data. Our data is the bricks of their offices. We're the ones who need to stop handing them our data, at least to some degree, without making our lives miserable and unnecessarily difficult.
+
+Some might call this need for privacy paranoia, but protecting yourself and your loved ones from future damage is not paranoia. Look at privacy as insurance; you might trust your government today, you might trust your messenger with your messages, you might trust Google with your whole life. But remember, Satan was once an angel too. Anyone can turn evil; any government can become corrupt and dictatorial. You wouldn't want them to know every single second of your life when they do.‍
+
+Privacy nowadays is not possible without security. Your data needs to be secure to authorize those whom you want to have access to it. You should expect that everything you put online will be read and opened one day. All you can trust with your data is encryption algorithms and the mathematics behind them, ensuring their security and reliability. But even the most secure encryption algorithms might be broken one day, and that's something to keep in mind.
+
+Privacy and security are also the building blocks of anonymity. You will need both to stay anonymous. Anonymity is when people see what you do—what you want them to see obviously—but they can't know who actually is behind those acts. It's similar to privacy, but in privacy, they know who you are but they don't know what you're doing.
+
+This book isn't meant for criminals, terrorists, racists, or anyone seeking to hide their wrongdoing. It's for human rights activists, those fighting for freedom in places where it isn't allowed, and those who contribute positively to society rather than tearing it apart. It's for the heroes who wear masks to protect themselves and their loved ones, not for supervillains.
+
+This book is also free, not in the sense of not costing anything to read, but free as in freedom. It's a side project of mine, written in my free time under the CC BY-NC 4.0 license. This license allows anyone to share and copy it in any medium and make changes to it, as long as they give credit to the author and indicate the changes they've made. Additionally, this license does not permit commercial use.
+
+I'm not doing this for profit; if I wanted money, I would work for it. This book, along with all my other projects, is driven by my passion for creating free content and software that I believe can help others who need them. However, I do accept and greatly appreciate donations. They enable me to dedicate more time to what I value and worry less about working another job I don't enjoy just to make a living. So, if you find my work helpful or you want to support what I do, please check the donation section of this book.
