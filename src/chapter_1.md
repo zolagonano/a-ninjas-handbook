@@ -1,0 +1,21 @@
+# Chapter 1
+
+## VPNs Don't Provide Anonymity
+
+This is kind of the biggest myth in the privacy and anonymity world: the belief that if you use a VPN, nobody will know what you're doing and you'll become totally anonymous. But that's completely wrong. Think of VPNs as shifting the trust from your ISP to your VPN provider. When you connect to your VPN, you're now letting them see what your ISP was seeing before.
+
+Also, they don't do a good job at hiding your real IP. With most VPN companies, a court order will get them to hand over all the logs and data they have on you, and usually, they have a lot. There are some exceptions though. Companies like Mullvad, ProtonVPN, and Windscribe have built their reputations based on the privacy of their users. They can be signed up for anonymously, paid with cash or crypto, and they claim not to log user traffic and activities. But still, that doesn't make them an anonymity tool.
+
+Even if your VPN provider doesn't log anything, the datacenters hosting their servers surely will. Another thing is that VPNs are vulnerable to traffic analysis; the VPN traffic can be analyzed to find patterns that indicate the source and destination of your traffic. And that's okay; VPNs aren't meant to be anonymity tools after all.
+
+Another problem with VPNs is fingerprinting. With Tor, you have the Tor Browser, which is designed to make all Tor users look identical. But with VPNs, you're the most unique person on this planet, especially if you have a browser that is modified in any way or if you're using an operating system like Linux or BSD. Even the smallest changes can make you super unique when it comes to fingerprinting, and that's not what you want for anonymity. For privacy, though, that would be fine. You can safely use a hardened Firefox, for example, for your personal usage, like watching YouTube and paying your bills. That's actually a good move. In that scenario, you don't need to look like everybody else; you can be unique. I'll cover fingerprinting more in the next chapter.
+
+If you want to maintain your anonymity, you should use tools specifically built for it, like Tor (and the Tor Browser). What Tor does is precisely what its name stands for: the onion router. It works like an onion, encrypting your data in three layers. As the data passes through each Tor relay, one layer of encryption will be removed, revealing the address of the next relay in the chain until the data reaches the final destination. When browsing the clearnet with Tor, your last relay will be a node called the exit node. The exit node is able to see the data inside your packet, but it won't know for sure where the packet originated. To trace a packet back to its sender, all relays that your traffic passes through must be controlled by one person, which is very unlikely and costly to implement.
+
+However, when you browse websites hosted on the Tor network, your data is end-to-end encrypted with the website's public key (the website's address is the public key, which is why Tor addresses are so long and hard to memorize). Therefore, nobody in the middle can open the traffic; they will simply pass it through until it reaches its destination.
+
+There are other anonymity tools as well, such as Lokinet, which is the newest, and I2P. Both of these are technically more anonymous than the Tor network, but technicality isn't everything. I2P and Lokinet both have very limited nodes compared to Tor, which makes the network more vulnerable. Additionally, neither of them provides a browser like the Tor Browser to prevent fingerprinting of users.
+
+So for now, the best option is Tor, both because of its proven track record over the years and the considerable number of volunteer nodes and relays it has. Moreover, the Tor Browser does a great job of making Tor users identical to each other when using the Tor network.
+
+Something to keep in mind when using the Tor Browser is that you shouldn't modify anything. Leave it as is; don't install plugins or tweak it. The Tor Browser is meant to have similar fingerprints to other Tor browsers, and even the smallest changes might make you the most unique person on the Tor network.
