@@ -43,3 +43,14 @@ There are other anonymity tools as well, such as Lokinet, which is the newest, a
 So for now, the best option is Tor, both because of its proven track record over the years and the considerable number of volunteer nodes and relays it has. Moreover, the Tor Browser does a great job of making Tor users identical to each other when using the Tor network.
 
 Something to keep in mind when using the Tor Browser is that you shouldn't modify anything. Leave it as is; don't install plugins or tweak it. The Tor Browser is meant to have similar fingerprints to other Tor browsers, and even the smallest changes might make you the most unique person on the Tor network.
+
+## I'm using a strong password
+Another/ myth that I see a lot of normies believe in is that they have to have a strong password, something random and hard to memorize. Having strong passwords is a must, but having a strong password for everything not only doesn't contribute much to your security but also makes you really vulnerable.
+
+Imagine you've used your password for every site you've ever signed up for. The password is really complicated and strong, though. But if one of these sites didn't store your password properly and they got hacked, and their database went public, now anybody can use that same password for any other website or service that you've signed up for, and they'd log in.
+
+Instead of bothering with memorizing a really hard password, you should be using a password manager, either something locally stored like KeePass or something online like Bitwarden.
+
+Those password managers that store the passwords locally are obviously more secure than the online ones, simply because if anyone wants to gain access to their database, they'd have to gain access to your computer. Not saying that it's impossible to gain access to your computer, but Bitwarden's servers might be far more targeted than you personally. Other than that, they're both fully encrypted. Even if something got leaked someday, your data will be securely stored and near impossible to access, at least with the tools and computers we have today.
+
+Your password manager then can be accessed using a passphrase (not a password). Passphrases are way more memorable while being a lot more secure. A passphrase can be something like: `Name-Seat-Look-Chair-Plane7-Stree7`, just six words, one punctuation character, and 7s instead of the letter T. Compared to a password like: `*&(*747983HJGHgdgsutpshlnb`, the passphrase will be more secure while being memorable.
