@@ -6,6 +6,16 @@ The same principle applies to privacy and security. Initially, you might believe
 
 In the first chapter, the focus will be on debunking some privacy and security myths that many newcomers in the world of privacy believe in. These myths can actually worsen your privacy by making you more identifiable while providing no real benefit.
 
+# I have no enemies
+
+The first myth, and perhaps the biggest one in the world of privacy, is what I call the "I have no enemies" phenomenon, or what you might know as "I have nothing to hide." As I mentioned in the introduction, even if we don't have things to "hide," we surely have things we want to protect. Maybe it's not even about us; perhaps people we know and care about have things to hide, and we could be the weak link in their privacy chain.
+
+You and I might not have enemies today, and we might not have things to hide today. But can we say for sure that this will be true in five or ten years? Surely not. We don't and can't know what will happen. Our privacy today can serve as insurance for what might happen later.
+
+Imagine if someone managed to gather your personal information and used it for illegal activity. Would it be harder to convince the police or FBI that you didn't do it than it would be to protect your personal information in the first place? Or maybe ten years later, if Google turned evil and worked as a "terrorist detection tool" for the government. When you're traveling with your wife and kids, they pull up your emails, search histories, and suggestions you've received. Due to your searches on explosives last year for your kid's birthday and the ad suggestions you received because of them, you get flagged as a terrorist. Now you spend the rest of your life on a watchlist.
+
+But I assume that if you're reading this book, you probably understand the importance of privacy, especially in this day and age where it's the least respected human right. But we all can change that. The blame for this situation lies with governments, doxxers, companies, and those so-called "national security agencies." However, the responsibility to make things right lies with us. We should protect our privacy.
+
 ## VPNs are Anonymous
 
 This is kind of the biggest myth in the privacy and anonymity world: the belief that if you use a VPN, nobody will know what you're doing and you'll become totally anonymous. But that's completely wrong. Think of VPNs as shifting the trust from your ISP to your VPN provider. When you connect to your VPN, you're now letting them see what your ISP was seeing before.
