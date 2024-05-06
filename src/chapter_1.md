@@ -16,6 +16,14 @@ Imagine if someone managed to gather your personal information and used it for i
 
 But I assume that if you're reading this book, you probably understand the importance of privacy, especially in this day and age where it's the least respected human right. But we all can change that. The blame for this situation lies with governments, doxxers, companies, and those so-called "national security agencies." However, the responsibility to make things right lies with us. We should protect our privacy.
 
+# I'd just go incognito
+
+If you ask someone who's not familiar with how the internet works what they would do to become totally anonymous online, they might say, 'I'd just open incognito mode.' And that is probably the most common myth in the privacy world among normies. The belief that incognito mode means no one will be able to track them or see their activities online. But that's far from reality. All incognito mode does is it won't save the history and logins on the browser you're using. 
+
+Still, your ISP knows what you're doing, the website knows your IP address, and you're still unique and fingerprintable. Incognito mode has some privacy benefits though, especially if you're using someone else's computer. In that case, you wouldn't want your cookies, your search history, or your logins to be stored on their device. But it doesn't contribute much more to your privacy or security than that.
+
+To hide your activities, you'd need something that encrypts your requests and redirects them to your desired destination. This could be a secure proxy, an SSH tunnel, or a VPN. However, it's crucial to note that the sites you visit can still fingerprint you and track you across other websites. I'll cover these in depth in the next chapters.
+
 ## VPNs are Anonymous
 
 This is kind of the biggest myth in the privacy and anonymity world: the belief that if you use a VPN, nobody will know what you're doing and you'll become totally anonymous. But that's completely wrong. Think of VPNs as shifting the trust from your ISP to your VPN provider. When you connect to your VPN, you're now letting them see what your ISP was seeing before.
