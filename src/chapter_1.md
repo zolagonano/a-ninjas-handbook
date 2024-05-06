@@ -6,7 +6,7 @@ The same principle applies to privacy and security. Initially, you might believe
 
 In the first chapter, the focus will be on debunking some privacy and security myths that many newcomers in the world of privacy believe in. These myths can actually worsen your privacy by making you more identifiable while providing no real benefit.
 
-# I have no enemies
+## I have no enemies
 
 The first myth, and perhaps the biggest one in the world of privacy, is what I call the "I have no enemies" phenomenon, or what you might know as "I have nothing to hide." As I mentioned in the introduction, even if we don't have things to "hide," we surely have things we want to protect. Maybe it's not even about us; perhaps people we know and care about have things to hide, and we could be the weak link in their privacy chain.
 
@@ -16,7 +16,7 @@ Imagine if someone managed to gather your personal information and used it for i
 
 But I assume that if you're reading this book, you probably understand the importance of privacy, especially in this day and age where it's the least respected human right. But we all can change that. The blame for this situation lies with governments, doxxers, companies, and those so-called "national security agencies." However, the responsibility to make things right lies with us. We should protect our privacy.
 
-# I'd just go incognito
+## I'd just go incognito
 
 If you ask someone who's not familiar with how the internet works what they would do to become totally anonymous online, they might say, 'I'd just open incognito mode.' And that is probably the most common myth in the privacy world among normies. The belief that incognito mode means no one will be able to track them or see their activities online. But that's far from reality. All incognito mode does is it won't save the history and logins on the browser you're using. 
 
