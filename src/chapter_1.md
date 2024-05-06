@@ -6,7 +6,7 @@ The same principle applies to privacy and security. Initially, you might believe
 
 In the first chapter, the focus will be on debunking some privacy and security myths that many newcomers in the world of privacy believe in. These myths can actually worsen your privacy by making you more identifiable while providing no real benefit.
 
-## VPNs Don't Provide Anonymity
+## VPNs are Anonymous
 
 This is kind of the biggest myth in the privacy and anonymity world: the belief that if you use a VPN, nobody will know what you're doing and you'll become totally anonymous. But that's completely wrong. Think of VPNs as shifting the trust from your ISP to your VPN provider. When you connect to your VPN, you're now letting them see what your ISP was seeing before.
 
