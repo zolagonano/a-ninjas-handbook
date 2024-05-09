@@ -59,3 +59,19 @@ For example, if you have cryptocurrencies, you can explore how to protect your a
 After designing your threat model, you can move on to taking action. For example, with cryptocurrency assets, you can start by backing up your assets on paper, storing them somewhere safe, using an offline and audited wallet, downloading your own blockchain instead of relying on other nodes run by others, or even purchasing a dedicated machine specifically hardened for this need and purpose.
 
 You might create a checklist at this point to ensure you don't forget anything and implement all the actions you believe will keep your data secure.
+
+## Common threats when threat modeling
+
+Different threats require different actions; there would be no action you can take to protect yourself from all of them. And that's fine—you don't need to. That's why you designed a threat model: to take actions on the most probable and most consequential threats based on your own personal situation.
+
+Your threats might not be among this list of common threats; they might require their unique strategies to protect yourself against. Again, you should act on your threat model. These are some concepts that I will refer to in this book, especially in this chapter:
+
+- Anonymity: Separating and protecting your real identity from your online activities, shielding yourself from anyone or anything wanting to unveil your vigilante mask and expose your real face.
+- Targeted Attacks: Shielding yourself from hackers, doxxers, government agencies, etc., that are specifically trying to get their hands on your data.
+- Passive Attacks: Defending yourself against attacks that target a large group of people, like when a company gets hacked and their data breaches to the public, or malware and scammers targeting thousands of people.
+- Supply Chain Attacks: Attacks that occur because of a vulnerability in a dependency of a trusted program, like the Linux distros getting backdoored because of a backdoor in xz utils (CVE-2024-3094) in 2024.
+- Service Providers: Protecting your data from service providers, like your ISP, usually through end-to-end encryption of your communications.
+- Mass Surveillance: Shielding yourself from surveillance systems that target the mass population, usually done by governments, but the websites that track you across the web are also in this category.
+- Big Tech Surveillance: Safeguarding yourself from big tech companies that profit from tracking you on the internet and selling your data for advertisement, like Google, Facebook, etc.
+- Public Exposure: Limiting the data available of you publicly on the internet, for example, your personal data indexed by search engines, etc.
+- Censorship: Bypassing digital censorship or avoiding being censored when using the internet or putting something out on the internet.
