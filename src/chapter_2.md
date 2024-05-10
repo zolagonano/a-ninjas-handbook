@@ -75,3 +75,11 @@ Your threats might not be among this list of common threats; they might require 
 - Big Tech Surveillance: Safeguarding yourself from big tech companies that profit from tracking you on the internet and selling your data for advertisement, like Google, Facebook, etc.
 - Public Exposure: Limiting the data available of you publicly on the internet, for example, your personal data indexed by search engines, etc.
 - Censorship: Bypassing digital censorship or avoiding being censored when using the internet or putting something out on the internet.
+
+### Anonymity vs Privacy
+
+Anonymity is totally different from privacy, but privacy is required to achieve anonymity. Anonymity is when Daredevil goes out at night to fight the Russians working for Wilson Fisk. They don't know that Daredevil is Matt Murdock, but they know what he does. Matt Murdock has untied his personal identity, which is a blind attorney, from his vigilante identity, which is this badass dude in a black and red suit fighting crime in Hell's Kitchen. Matt Murdock is anonymous when he's Daredevil, and the Wilson Fisk and every other criminal he has fought are the attackers who would love to unveil his identity and find out who's behind this mask.
+
+Here in this example, Matt Murdock has used privacy to achieve that anonymity. He has separated his identity in a way that nobody would be suspicious of him being Daredevil. He pretended all the years that he can't see anything, can't even walk without his cane, and even if he was injured, he would say that he fell down some stairs. And that's the privacy there, protecting his anonymity. He decided for people to see this side of Matt Murdock, not the Daredevil side of him.
+
+The same thing applies in the online world, but here the tools are different. The masks are digital tools using encryption and onion routing, but the concept is the same. If you're some kind of vigilante like Matt Murdock, you probably need to protect and separate your real identity from your vigilante identity.
