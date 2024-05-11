@@ -90,3 +90,9 @@ Daredevil was targeted too; all of the Hell's Kitchen criminals were after him. 
 
 But if you think the NSA, CIA, and other agencies are after you, you can't run from them forever. You might be able to fake your death and live in a submarine, but they will probably find you. This usually falls into the category of threats that you'd rather not bother about because of how difficult it might make your life. Also, it is quite rare to be that targeted. Usually, those targeted by the NSA have the support of another corrupt government.
 
+### Passive Attacks
+
+This kind of attack affects most people of Hell's Kitchen, from Foggy Nelson to the Frank Castle, even the people of Gotham City. It affects both villains and heroes, from Batman to Harley Quinn. These attacks are usually towards large groups of people, like malware spreading on the internet. When WannaCry spread on the internet, it affected anything that had that vulnerable version of Windows; it didn't choose.
+
+This kind of attack, in my opinion, is the most probable for the majority of people. We all have signed up for many websites in our lifetimes; a data breach in one of them would be really likely and can definitely affect us if we haven't taken any precautions.
+
