@@ -96,3 +96,22 @@ This kind of attack affects most people of Hell's Kitchen, from Foggy Nelson to 
 
 This kind of attack, in my opinion, is the most probable for the majority of people. We all have signed up for many websites in our lifetimes; a data breach in one of them would be really likely and can definitely affect us if we haven't taken any precautions.
 
+### Supply Chain Attacks
+
+Supply chain attacks can target even the most trusted programs by exploiting vulnerabilities in the programs they depend on. Sometimes, these attacks are targeted towards businesses or governments, but they can affect the mass population in the process. Preventing supply chain attacks is challenging; it requires time and energy to audit and test every dependency in the chain to be sure, but even then, there are always flaws. Nothing can be fully secure.
+
+But how are these attacks performed? There are several common methods:
+
+- Someone with enough power and a high enough position in a company or developer team can have the authority to add malicious code to a software.
+- In the open-source world, someone can contribute malicious code in a way that it gets added to the codebase unnoticed.
+- The author and maintainer of a library or dependency can decide to inject a backdoor into the code.
+
+#### Minimizing the Risk
+
+While the risk can't be fully eliminated, there are ways to reduce it:
+
+- Software and services from big companies like Google generally have a good reputation and better security than software developed by a small team or an individual.
+- Checking the commits, changes, and contributors in the case of open-source software.
+- Frequently checking for known security flaws in software.
+- Using independently audited software.
+- Sandboxing and isolation to minimize the impact of possible attacks.
