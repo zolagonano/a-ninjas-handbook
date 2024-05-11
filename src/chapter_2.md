@@ -83,3 +83,10 @@ Anonymity is totally different from privacy, but privacy is required to achieve 
 Here in this example, Matt Murdock has used privacy to achieve that anonymity. He has separated his identity in a way that nobody would be suspicious of him being Daredevil. He pretended all the years that he can't see anything, can't even walk without his cane, and even if he was injured, he would say that he fell down some stairs. And that's the privacy there, protecting his anonymity. He decided for people to see this side of Matt Murdock, not the Daredevil side of him.
 
 The same thing applies in the online world, but here the tools are different. The masks are digital tools using encryption and onion routing, but the concept is the same. If you're some kind of vigilante like Matt Murdock, you probably need to protect and separate your real identity from your vigilante identity.
+
+### Targeted Attacks
+
+Daredevil was targeted too; all of the Hell's Kitchen criminals were after him. So he needed to protect his identity and anonymity while defending himself against targeted attacks from one of the most powerful villains of New York, the Kingpin. But who else might be in a situation like Daredevil's? Whistleblowers, activists, and protesters. However, they need different tools than Matt Murdock. They might need the Tor browser rather than a mask, or end-to-end encryption tools to communicate and store data rather than an indestructible suit made by Melvin Potter.
+
+But if you think the NSA, CIA, and other agencies are after you, you can't run from them forever. You might be able to fake your death and live in a submarine, but they will probably find you. This usually falls into the category of threats that you'd rather not bother about because of how difficult it might make your life. Also, it is quite rare to be that targeted. Usually, those targeted by the NSA have the support of another corrupt government.
+
