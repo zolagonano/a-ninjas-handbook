@@ -115,3 +115,8 @@ While the risk can't be fully eliminated, there are ways to reduce it:
 - Frequently checking for known security flaws in software.
 - Using independently audited software.
 - Sandboxing and isolation to minimize the impact of possible attacks.
+
+### Service Providers
+Your ISP can see all your traffic, much like Joker has put a GPS tracker on Batman's Batmobile. Joker knows where Batman is going, and he can log that information as well. However, thanks to TLS and HTTPS, the data that ISPs can see has become limited. They can know the IP address, the Server Name Indicator (SNI) of your traffic, and the DNS queries. But there are fixes for this. We can encrypt DNS, encrypt the client hello and SNI, and then all your service provider would see is the destination IP and timestamps if TLS is enabled for that website or service.
+
+Here, you can shift the trust from your ISP to a VPN provider that doesn't log your traffic and allows you to sign up anonymously, such as Mullvad and ProtonVPN. However, this is just shifting the trust, not eliminating it. For that, there are other tools made, like TOR, which would ensure that no one in the middle would be able to see where you are going and what you are doing if you use the websites on the TOR network and not the clearnet. Using encrypted DNS is also shifting the trust; still, the DNS server knows you and when and where you wanted to go. Luckily, TOR has its own DNS as well.
