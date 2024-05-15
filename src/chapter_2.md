@@ -126,3 +126,11 @@ Here, you can shift the trust from your ISP to a VPN provider that doesn't log y
 David Liberman, also known as Micro, was an NSA analyst and hacker who, when trying to expose the CIA's drug transshipment in Afghanistan, got "killed" by a corrupt Homeland Security agent. However, he survived and gained access to all CCTV cameras and everything that these government agencies had access to so he could find Frank Castle, aka Punisher, to help him kill all those who were a threat to his family so he could get back home. At least, that's what I remember from the show. The movie is not the point. This kind of act—spying on all people, spying on all internet traffic, logging every packet—is what's called mass surveillance. It affects everyone.
 
 Governments usually justify this by saying that they're fighting terrorism, but in reality, it has little to no effect on crime, and some governments use it for social credit systems.
+
+### Big Tech Surveillance
+
+There is another kind of mass surveillance that isn't done by governments or agencies; it's done by big tech companies like Google and Facebook. Being the largest tech companies with the most internet users, they gather and collect a vast amount of data—sometimes even more than what governments collect in certain countries.
+
+This kind of mass surveillance differs from that of governments. These companies don't deny their activities or claim it's for stopping terrorism or national security. They simply do it to sell the data they gather.
+
+They make tons of money from your data by using it for advertising, tracking you across the internet. However, there are no guarantees that this won't go beyond being about money and advertisements. These companies might work with government agencies in the future as well.
