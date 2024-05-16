@@ -32,7 +32,7 @@ Also, they don't do a good job at hiding your real IP. With most VPN companies, 
 
 Even if your VPN provider doesn't log anything, the datacenters hosting their servers surely will. Another thing is that VPNs are vulnerable to traffic analysis; the VPN traffic can be analyzed to find patterns that indicate the source and destination of your traffic. And that's okay; VPNs aren't meant to be anonymity tools after all.
 
-Another problem with VPNs is fingerprinting. With Tor, you have the Tor Browser, which is designed to make all Tor users look identical. But with VPNs, you're the most unique person on this planet, especially if you have a browser that is modified in any way or if you're using an operating system like Linux or BSD. Even the smallest changes can make you super unique when it comes to fingerprinting, and that's not what you want for anonymity. For privacy, though, that would be fine. You can safely use a hardened Firefox, for example, for your personal usage, like watching YouTube and paying your bills. That's actually a good move. In that scenario, you don't need to look like everybody else; you can be unique. I'll cover fingerprinting more in the next chapter.
+Another problem with VPNs is fingerprinting. With Tor, you have the Tor Browser, which is designed to make all Tor users look identical. But with VPNs, you're the most unique person on this planet, especially if you have a browser that is modified in any way or if you're using an operating system like Linux or BSD. Even the smallest changes can make you super unique when it comes to fingerprinting, and that's not what you want for anonymity. For privacy, though, that would be fine. You can safely use a hardened Firefox, for example, for your personal usage, like watching YouTube and paying your bills. That's actually a good move. In that scenario, you don't need to look like everybody else; you can be unique. I'll cover fingerprinting more in the next chapters.
 
 If you want to maintain your anonymity, you should use tools specifically built for it, like Tor (and the Tor Browser). What Tor does is precisely what its name stands for: the onion router. It works like an onion, encrypting your data in three layers. As the data passes through each Tor relay, one layer of encryption will be removed, revealing the address of the next relay in the chain until the data reaches the final destination. When browsing the clearnet with Tor, your last relay will be a node called the exit node. The exit node is able to see the data inside your packet, but it won't know for sure where the packet originated. To trace a packet back to its sender, all relays that your traffic passes through must be controlled by one person, which is very unlikely and costly to implement.
 
@@ -63,3 +63,13 @@ The reason for this uncertainty is that they're not transparent about how they i
 However, in the case of something like Google Drive, which offers a reasonable amount of free cloud storage, you can still use it. If you already have a Google account associated with your identity, you can use that Google Drive to upload some encrypted data that you don't have space for elsewhere. Just because it's Google doesn't mean it's pure evil, and there can still be uses for it. You can use Google once you're self-conscious about your privacy.
 
 Although, every day, more and more privacy-friendly alternatives are emerging. In the near future, you might not need to use Google or other similar companies.
+
+## Open-source means private
+
+Yes, open-source software is more transparent than proprietary software and has the potential to be more secure and private. However, transparency and potential alone don't make them more private or secure. It's essential to look for independent audits of the software you intend to use. Also, being proprietary doesn't necessarily mean it's less safe. Assess the reputation of the software and its maintainers and determine whether it undergoes audits.
+
+---
+
+
+
+These were some of the most common myths about online privacy and security. Countless misconceptions exist, and in such situations, it's crucial to approach them with logic rather than bias. We need to plan out where to focus our time and energy wisely. The next chapter will delve into threat modeling and the common threats you should be aware of before designing your own threat model.
