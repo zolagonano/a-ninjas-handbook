@@ -134,3 +134,9 @@ There is another kind of mass surveillance that isn't done by governments or age
 This kind of mass surveillance differs from that of governments. These companies don't deny their activities or claim it's for stopping terrorism or national security. They simply do it to sell the data they gather.
 
 They make tons of money from your data by using it for advertising, tracking you across the internet. However, there are no guarantees that this won't go beyond being about money and advertisements. These companies might work with government agencies in the future as well.
+
+### Public Exposure
+
+When I was 8 years old, I created a personal website that included my name, email, and phone number. It took months of back-and-forth with Google and the blogging website to remove it from search engine results. This is what public exposure is: the data publicly available about you online, often put out there by yourself when you didn't care about privacy. It can be quite hard and sometimes impossible to take this information down. In fact, it's always impossible to truly delete something you've posted on the internet. This is why you should adopt the mindset that anything you say, post, or share online might stay there forever. Even if it's encrypted, you need to assume it will be read one day—maybe not in your lifetime, but eventually.
+
+Prevention is the best treatment. The best way to keep your data private is to not make it public in the first place. Remember, nobody will call the cops on you because you didn't sign up on Instagram with your real identity. It's the internet, not the military or a bank. You don't need to use your real name, phone number, or home address. Keep your real phone number for people you know personally, not for every troll, doxxer, or whoever might use the internet. The same goes for your real name and other personal details.
