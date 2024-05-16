@@ -147,9 +147,7 @@ Sometimes you need privacy and security to avoid censorship, whether it's applie
 
 In this scenario, privacy tools like VPNs, proxies, encrypted DNS, and Tor can help you bypass censorship. Privacy-friendly platforms like Mastodon, which allow you to host them yourself, enable you to freely express your thoughts without someone like Elon Musk getting mad at you.
 
-
-
----
+## The journey begins...
 
 These were some of the common threats and common ways to design your threat model based on. It can vary based on your very unique situation; you need to address your own personal needs when it comes to threat modeling. But it's not something you should skip; otherwise, you would be lost, wasting time and energy on things you don't need. That's how I started my privacy journey—I didn't design a threat model. Instead, I tried to make myself bulletproof from every possible attack and ended up wasting a year of my life. I also gave myself long-lasting anxiety and paranoia for no reason, all because I didn't plan out who I'm protecting my data from.
 
