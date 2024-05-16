@@ -63,3 +63,13 @@ The reason for this uncertainty is that they're not transparent about how they i
 However, in the case of something like Google Drive, which offers a reasonable amount of free cloud storage, you can still use it. If you already have a Google account associated with your identity, you can use that Google Drive to upload some encrypted data that you don't have space for elsewhere. Just because it's Google doesn't mean it's pure evil, and there can still be uses for it. You can use Google once you're self-conscious about your privacy.
 
 Although, every day, more and more privacy-friendly alternatives are emerging. In the near future, you might not need to use Google or other similar companies.
+
+## Open-source means private
+
+Yes, open-source software is more transparent than proprietary software and has the potential to be more secure and private. However, transparency and potential alone don't make them more private or secure. It's essential to look for independent audits of the software you intend to use. Also, being proprietary doesn't necessarily mean it's less safe. Assess the reputation of the software and its maintainers and determine whether it undergoes audits.
+
+---
+
+
+
+These were some of the most common myths about online privacy and security. Countless misconceptions exist, and in such situations, it's crucial to approach them with logic rather than bias. We need to plan out where to focus our time and energy wisely. The next chapter will delve into threat modeling and the common threats you should be aware of before designing your own threat model.
