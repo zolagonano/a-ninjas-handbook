@@ -78,7 +78,7 @@ These are some of the most common types of sensitive information that an individ
   - **Health information:** Data about your medical history and current health status.
   - **Memberships in various organizations:** Affiliations with clubs, societies, and other groups.
 
-### Protecting Sensitive Information
+## Protecting Sensitive Information
 
 Now that we're familiar with some common types of sensitive information in OPSEC, let's explore approaches we can take to protect this data. These protections vary widely based on your personal situation and unique threat model, so always refer to your threat model.
 
@@ -137,3 +137,13 @@ Now that we're familiar with some common types of sensitive information in OPSEC
 - Exercise caution when sharing personal preferences and opinions on public platforms, especially under your real name.
 - Adjust privacy settings on social media to limit the visibility of personal preferences and opinions.
 - Consider using pseudonyms or anonymous accounts for discussions on sensitive topics, which can sometimes be crucial depending on your location.
+
+---
+
+Effective OPSEC goes beyond implementing techniques; it's about shifting your mindset. It demands a heightened awareness of the information we share and a commitment to continuous learning and adaptation. Threats are always evolving, and techniques may become deprecated, but if you set your mindset to understand why what you put online may stay there forever and be read someday, you'll find the right techniques.
+
+> "If you know the why, you can live any how."
+>
+>   ― Friedrich Nietzsche  
+
+The next chapter will explore the essentials of privacy and security. With the myths debunked, the roadmap established, and the mindset in place, we can delve into the tools and techniques that enhance your privacy in the digital world.
