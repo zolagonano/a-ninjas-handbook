@@ -78,7 +78,7 @@ These are some of the most common types of sensitive information that an individ
   - **Health information:** Data about your medical history and current health status.
   - **Memberships in various organizations:** Affiliations with clubs, societies, and other groups.
 
-### Protecting Sensitive Information
+## Protecting Sensitive Information
 
 Now that we're familiar with some common types of sensitive information in OPSEC, let's explore approaches we can take to protect this data. These protections vary widely based on your personal situation and unique threat model, so always refer to your threat model.
 
