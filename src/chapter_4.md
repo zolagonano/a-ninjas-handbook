@@ -28,3 +28,23 @@ These passphrases are called Diceware Passphrases. An example of a Diceware pass
 ![XKCD's password strength meme](./pictures/xkcd-password-strength.png)
 
 Avoid changing your master passwords too often unless you suspect that it is compromised to minimize the risk of forgetting it. Also, a good practice would be having an encrypted back of your passwords somewhere safe, ideally outside your devices and with a different password (in case you forget the main password) so you can restore your password and minimize the risk of losing access to your accounts.
+
+## Email Security
+Email services aren't secure by nature. New technology usually comes before security, and that's true for email as well as the earliest protocols of the internet. But this lack of security can be overcome to some extent by adding layers of encryption to email services.
+
+The first layer of encryption needs to be added to the communication channel. By communication channel, I mean the channel that the data needs to go through to get to the destination, not the email content. This can be done by adding TLS to the transport layer of the email protocol. Nowadays, most email service providers have TLS enabled by default. But if you self-host your email service, you'd need to make sure transport layer encryption is enabled.
+
+The second layer of encryption would be for the email content. This can be done through using PGP or S/MIME encryption. But we would need to have our recipient's public key in order to send them encrypted emails. There are encrypted and privacy-focused email providers like ProtonMail and Tutanota which can eliminate this need for having the public key, only if our recipient uses the same email provider as us. For example, two ProtonMail users can send each other encrypted emails without having to know each other's public keys.
+
+And even if you encrypt the content of the email, the metadata would still be unencrypted. These metadatas can include:
+
+1. **Sender Email Address:** The email address of the person sending the email.
+2. **Recipient Email Address(es):** The email address(es) of the recipient(s) of the email.
+3. **Timestamps:** The date and time when the email was sent and sometimes when it was received.
+4. **Subject Line:** The subject line of the email, which summarizes its content.
+5. **Message-ID:** A unique identifier for the email message.
+6. **Return-Path:** The email address to which bounced emails are returned.
+7. **Received:** Information about the email servers and networks through which the email passed during transmission.
+8. **X-Mailer:** Optional field indicating the email client or software used to compose the email.
+9. **MIME-Version:** Version of the Multipurpose Internet Mail Extensions (MIME) protocol used in the email.
+10. **Content-Type:** The type and format of the message content, such as text/plain for plain text or text/html for HTML-formatted content.
