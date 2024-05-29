@@ -48,3 +48,15 @@ And even if you encrypt the content of the email, the metadata would still be un
 8. **X-Mailer:** Optional field indicating the email client or software used to compose the email.
 9. **MIME-Version:** Version of the Multipurpose Internet Mail Extensions (MIME) protocol used in the email.
 10. **Content-Type:** The type and format of the message content, such as text/plain for plain text or text/html for HTML-formatted content.
+
+## Messaging Security
+
+Most chat messages aren't secure either. For instance, Telegram, a messaging app that claims to be encrypted and secure, doesn't even have E2EE (end-to-end encryption) enabled by default. And even when it allows E2EE, it is only for mobile clients, meaning you cannot use Telegram securely on a desktop client. Worse yet, Telegram breaks the first and most important rule of cryptography, which states, "Do not roll your own crypto," by using a self-rolled cryptography scheme for its E2EE chats. Additionally, Telegram servers are all closed-source; nobody has any idea how the messages and data on Telegram are stored. Are they encrypted? Who has access to these servers? Nobody knows. Telegram is the perfect example of a bad messaging app in my opinion. I know there are messaging apps worse than Telegram, but none of them claim to be private and secure. So, I will use Telegram as a bad example of a messaging app to explain what a messaging app needs to have.
+
+- **End-to-end Encryption:** A secure messaging app would allow E2EE messages with a known and audited cryptography scheme and implementation. Telegram allows it to some degree, but its cryptography is questionable.
+- **Anonymous Sign-up:** A private messaging app would allow you to sign up anonymously, usually using an email. Telegram and Signal use phone numbers, which is reasonable for reducing spam. However, there are ways around this, like buying an anonymous VoIP number using Monero or cash.
+- **Transparency:** A secure messaging app should be transparent about how they store data, what data they store, and in what scenarios the data can be handed over to authorities.
+- **Metadata Collection:** Every message and account has some metadata that usually isn't encrypted. Telegram collects a lot about you, like your name, sign-up date, IP addresses, 2FA email, phone number, contacts, people you frequently talk to, and all your messages (if you do not use E2EE). They can hand this data over to authorities if they have to. Signal, on the other hand, collects little to no metadata about you and doesn't have much to hand over even if a court order compels them to do so.
+- **Popularity:** We can't make people use what we use. If everyone I know uses Telegram, I have to use Telegram too, and that's a big part of a messaging app. I might prefer Matrix over Signal, though Signal has better security and collects less metadata than Matrix, but most people I talk to use Matrix, so I have to make some sacrifices here.
+
+Your threat model plays a huge role here. You might not care at all if your messages with your friends can be read by Telegram or any other company. It depends on you and your threat model.
