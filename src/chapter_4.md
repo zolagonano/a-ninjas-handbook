@@ -60,3 +60,38 @@ Most chat messages aren't secure either. For instance, Telegram, a messaging app
 - **Popularity:** We can't make people use what we use. If everyone I know uses Telegram, I have to use Telegram too, and that's a big part of a messaging app. I might prefer Matrix over Signal, though Signal has better security and collects less metadata than Matrix, but most people I talk to use Matrix, so I have to make some sacrifices here.
 
 Your threat model plays a huge role here. You might not care at all if your messages with your friends can be read by Telegram or any other company. It depends on you and your threat model.
+
+## VPNs security
+Normally when you use the internet, your ISP can technically see all the data that is passing through the network. But nowadays, with most websites and services supporting TLS/SSL encryption, your ISP is not able to see much. However, they can still figure out the IP address and the domain name that you're requesting. Anything that your ISP can see, your VPN provider can see as well. Because of that, VPNs are mostly a shift in trust. For example, my ISP logs a lot of information that I don't want to be logged, and they hold the data for a long period of time. The VPN provider that I use (ProtonVPN and Mullvad) promise not to log anything. They're reputable privacy-focused VPN providers and they allow anonymous payments, especially Mullvad VPN. So in this scenario, I prefer to use the VPN all the time because I trust it more than my ISP. 
+
+But we don't always need to shift the trust; sometimes it's because we want to bypass censorship. VPNs are a great way to bypass censorship as they encrypt the data that is passing through the network, making it hard for censorship systems to detect it. Even if it is for bypassing censorship, it is still shifting the trust, and it needs to be something that collects little to no data about us and our data.
+
+```mermaid
+graph TD;
+    Client[Client Device]
+    ISP[Internet Service Provider]
+    VPN_Server[VPN Server]
+    Destination[Destination Server]
+
+    Client -->|Encrypted VPN Tunnel| VPN_Server
+    VPN_Server -->|Regular Traffic| Destination
+    Client -->|Regular Traffic| ISP
+    ISP -->|Encrypted VPN Tunnel| VPN_Server
+    ISP -.->|Encrypted Data| Destination
+```
+
+For me, a VPN provider should have these characteristics:
+
+- **Strong encryption:** It should use secure encryption methods and protocols. For example, a secure protocol would be something like WireGuard or OpenVPN, and an encryption method that supports perfect forward secrecy. Perfect forward secrecy ensures that the encrypted data wouldn't be accessible even if the actual key gets into the wrong hands.
+- **No-Logs Policy:** A private VPN provider should not keep logs of user activities, connections, timestamps, or IP addresses. For example, VPN providers like Mullvad, ProtonVPN, and Windscribe do not collect much about your traffic.
+- **DNS Leak Protection:** A secure and private VPN should ensure that DNS queries are routed through the VPN tunnel, not through the user's ISP. This prevents the leaking of visited websites to the ISP.
+- **Kill Switch:** A private VPN should provide a feature that disconnects the user from the internet if the VPN connection drops, ensuring that no data is transmitted over an unencrypted connection.
+- **IP Address Masking:** The VPN should hide the user's real IP with one provided by the VPN servers.
+- **Multi-Hop:** A nice feature for a VPN to have would be multi-hopping, which routes user's traffic through multiple servers in different locations, adding an extra layer of security and privacy.
+- **Secure Authentication:** An ideal VPN provider would have multi-factor authentication systems (like TOTP or even SMS/Email authentication codes) to protect users' accounts.
+- **Private Servers:** It should use private or dedicated servers rather than shared ones to reduce the risk of data interception.
+- **Obfuscation:** It should provide obfuscation features to bypass censorship systems like DPI (deep packet inspection), making the VPN traffic appear like regular traffic, usually using an obfuscation protocol like obfs4 or ScrambleSuit.
+- **Jurisdiction:** It’s better if it is based in a country with strong privacy laws and outside the influence of surveillance alliances like the Five Eyes, Nine Eyes, or Fourteen Eyes.
+- **Regular Audits:** It should have regular security audits by independent third parties to verify the no-logs policy and the overall security of the service.
+
+But these characteristics can vary based on the user's threat model. Not everyone cares about multi-hops and no-log policies. You should always act based on your threat model.
