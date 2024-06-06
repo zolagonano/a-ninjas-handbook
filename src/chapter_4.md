@@ -61,7 +61,7 @@ Most chat messages aren't secure either. For instance, Telegram, a messaging app
 
 Your threat model plays a huge role here. You might not care at all if your messages with your friends can be read by Telegram or any other company. It depends on you and your threat model.
 
-## VPNs security
+## Choosing a secure VPN
 Normally when you use the internet, your ISP can technically see all the data that is passing through the network. But nowadays, with most websites and services supporting TLS/SSL encryption, your ISP is not able to see much. However, they can still figure out the IP address and the domain name that you're requesting. Anything that your ISP can see, your VPN provider can see as well. Because of that, VPNs are mostly a shift in trust. For example, my ISP logs a lot of information that I don't want to be logged, and they hold the data for a long period of time. The VPN provider that I use (ProtonVPN and Mullvad) promise not to log anything. They're reputable privacy-focused VPN providers and they allow anonymous payments, especially Mullvad VPN. So in this scenario, I prefer to use the VPN all the time because I trust it more than my ISP. 
 
 But we don't always need to shift the trust; sometimes it's because we want to bypass censorship. VPNs are a great way to bypass censorship as they encrypt the data that is passing through the network, making it hard for censorship systems to detect it. Even if it is for bypassing censorship, it is still shifting the trust, and it needs to be something that collects little to no data about us and our data.
@@ -95,3 +95,7 @@ For me, a VPN provider should have these characteristics:
 - **Regular Audits:** It should have regular security audits by independent third parties to verify the no-logs policy and the overall security of the service.
 
 But these characteristics can vary based on the user's threat model. Not everyone cares about multi-hops and no-log policies. You should always act based on your threat model.
+
+---
+
+These were the bare minimums of privacy and security. As the book progresses, the chapters will become more technically advanced and more focused on anonymity. The next chapter will be all about encryption, as it is the building block of security in the online world.
