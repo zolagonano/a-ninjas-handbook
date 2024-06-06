@@ -43,9 +43,7 @@ jobs:
         id: pages
         uses: actions/configure-pages@v4
       - name: Build with mdBook
-        run: |
-          mdbook-mermaid install
-          mdbook build
+        run: mdbook build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
