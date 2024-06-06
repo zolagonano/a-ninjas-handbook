@@ -95,3 +95,7 @@ For me, a VPN provider should have these characteristics:
 - **Regular Audits:** It should have regular security audits by independent third parties to verify the no-logs policy and the overall security of the service.
 
 But these characteristics can vary based on the user's threat model. Not everyone cares about multi-hops and no-log policies. You should always act based on your threat model.
+
+---
+
+These were the bare minimums of privacy and security. As the book progresses, the chapters will become more technically advanced and more focused on anonymity. The next chapter will be all about encryption, as it is the building block of security in the online world.
