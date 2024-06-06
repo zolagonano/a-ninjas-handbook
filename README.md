@@ -4,7 +4,7 @@ A Book on privacy, security, and anonymity online.
 
 ## How to Use
 
-This book is a work in progress and is built using mdBook, a simple and easy-to-use tool for creating online books and documentation using Markdown files. To view the book, simply navigate to the [book's website](https://your-book-website.com).
+This book is a work in progress and is built using mdBook, a simple and easy-to-use tool for creating online books and documentation using Markdown files. To view the book, simply navigate to the [book's website](https://zolagonano.github.io/a-ninjas-handbook).
 
 ## Contributing
 
