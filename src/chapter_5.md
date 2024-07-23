@@ -1,0 +1,5 @@
+# Chapter 5
+
+Encryption tools are a non-separable part of security, privacy, and anonymity online. You can't achieve anonymity if you don't have privacy, you can't have privacy if you are not secure, and you can't be secure if there's no encryption.
+
+Encryption is like the house you build in Minecraft; it only allows you inside, not the zombies and the mobs, and keeps your stuff safe when you're not home. The encryption algorithm and scheme would be the material that your house is built with. A weak encryption scheme/algorithm is like a Minecraft house built with dirt or wood; it can be destroyed by a creeper blowing up near it or catch on fire if you accidentally light a flint on it. The more proven and tested the algorithm is, the more secure it becomes. So, the first rule of encryption is to never roll your own encryption, as that can be like building a Minecraft house out of thin air, with no structure and no good quality material, and it will fall apart with the most effortless attacks of a professional.
