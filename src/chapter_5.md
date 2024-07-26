@@ -19,3 +19,24 @@ Here is a quote from the book, *Introduction to Cryptography*, by the creator of
 > From this humbling experience, I learned how easy it is to fall into a false sense of security when devising an encryption algorithm. Most people don’t realize how fiendishly difficult it is to devise an encryption algorithm that can withstand a prolonged and determined attack by a resourceful opponent.
 >
 > -- Creator of PGP, Phil Zimmermann
+
+## Even the Most Secure Algorithms Can Be Vulnerable
+
+It is not only the cryptographic algorithm that has to be secure; the implementation of it needs to be secure, well-known, and audited as well, both for hardware and software level implementations. Several attacks can be done through the implementation of an algorithm, for example:
+
+- **Timing Attacks**: An attacker measures the time it takes to perform cryptographic operations and uses this information to deduce secret keys.
+- **Simple Power Analysis (SPA)**: An attacker analyzes power consumption traces to extract keys or other sensitive information.
+- **Differential Power Analysis (DPA)**: An attacker collects power consumption data over many encryption operations and uses statistical methods to deduce the secret key.
+- **Electromagnetic (EM) Attacks**: An attacker uses EM emissions to gain information about the internal state of the device and extract secret keys.
+- **Fault Injection Attacks**: An attacker uses techniques like voltage glitching, clock glitching, or laser fault injection to induce faults and analyze the erroneous outputs to deduce the secret key.
+- **Cache Attacks**: An attacker uses cache timing information to infer which memory accesses are made during cryptographic operations and deduces secret keys.
+- **Cold Boot Attacks**: An attacker freezes the RAM to preserve its state and then reads the memory contents after rebooting the system to extract encryption keys.
+- **Differential Fault Analysis (DFA)**: An attacker compares faulty and correct outputs to deduce information about the internal state and secret keys.
+- **Glitching Attacks**: An attacker uses power or clock glitches to cause incorrect operations in cryptographic algorithms, then analyzes the faulty outputs to extract keys.
+- **Buffer Overflow**: An attacker crafts input data that causes buffer overflows and gains control over the execution flow to extract keys or sensitive data.
+- **Side-Channel via Shared Resources**: An attacker running code on the same machine as the cryptographic software can use shared resource behavior to infer secret keys.
+- **Physical Attacks**: An attacker uses techniques like microprobing to directly read out memory contents or manipulate hardware components.
+
+These attacks can be done on algorithms that are considered unbreakable, only through the implementation side of things. All these attacks can be prevented as well. A well-known software or device that has been audited is probably secure against all or most of these attacks.
+
+Some best practices would be keeping the software updated, looking for independent audits, using proven libraries (if you are developing a tool that needs encryption), and using standard encryption algorithms, modes, and schemes.
