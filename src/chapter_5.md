@@ -40,3 +40,26 @@ It is not only the cryptographic algorithm that has to be secure; the implementa
 These attacks can be done on algorithms that are considered unbreakable, only through the implementation side of things. All these attacks can be prevented as well. A well-known software or device that has been audited is probably secure against all or most of these attacks.
 
 Some best practices would be keeping the software updated, looking for independent audits, using proven libraries (if you are developing a tool that needs encryption), and using standard encryption algorithms, modes, and schemes.
+
+## Encrypt Your Data at Rest
+
+Encryption doesn't always have to be for communication channels, messengers, VPNs, etc. Your offline data needs encryption too. Just like when you put your important stuff in a safe box and it is available to you only when the safe box is opened, your data on your phone, computer, NAS, USB sticks should be encrypted as well, so only when they are opened is their data available. At rest, encryption doesn't mean that if malware finds its way to your computer it cannot access your data; it means when you don't use it, when it's locked, it is not accessible.
+
+Imagine someone robs your laptop. If it's not encrypted, they can simply take out the hard drive and steal all the data on it, but if it's encrypted and locked, there should be no way to access any of your data.
+
+For the encryption of your hard drives, you can use software like VeraCrypt if cross-platform compatibility matters to you. On Windows, there's BitLocker, and on Linux, you can use cryptsetup or a file system that allows encryption.
+
+But there are differences between container encryption tools like VeraCrypt and cryptsetup and file system-level encryption like fscrypt. Here are some of the key differences:
+
+| Feature              | File System Encryption                         | Container Encryption                         |
+| -------------------- | ---------------------------------------------- | -------------------------------------------- |
+| **Encryption Scope** | Individual files/directories                   | Entire volumes/containers                    |
+| **Integration**      | Built into file system (e.g., ext4, F2FS)      | Separate from file system                    |
+| **Performance**      | Lower overhead, selective encryption           | Higher overhead, encrypts all data           |
+| **Key Management**   | User-specific keys, multiple keys per file/dir | Single key or passphrase per container       |
+| **Ease of Use**      | Transparent after setup                        | Requires mounting/unmounting containers      |
+| **Cross-Platform**   | Limited to supporting file systems             | Broad support (Windows, Linux, macOS)        |
+| **Security**         | Encrypts data, but not always metadata         | Encrypts all data and metadata               |
+| **Use Cases**        | Selective encryption, performance-sensitive    | Full volume encryption, cross-platform needs |
+
+When it comes to full disk encryption, having modern hardware really helps with the security and performance of encryption, as modern CPUs have built-in AES accelerating features allowing them to encrypt and decrypt AES without affecting the I/O performance as much. Also, most modern devices have TPMs (Trusted Platform Modules) which are hardware microcontrollers designed to enhance security at the hardware level by providing a secure environment for generating, storing, and managing cryptographic keys.
