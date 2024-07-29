@@ -90,6 +90,8 @@ Lastly, develop a disaster recovery plan and ensure you have clear procedures fo
 
 No matter how securely a hard drive is encrypted, it is always vulnerable to the 5-dollar wrench attack, meaning someone can always beat you up with a 5-dollar wrench to make you give up your passwords. How can this be prevented? Well, it is complicated, but there are some things you can do.
 
+![XKCD Security Meme](./pictures/xkcd-security-meme.png)
+
 ### 1. Have a Kill Switch
 
 Creating a kill switch system in which, if a specific password is entered, the key file is permanently wiped could save your data by making it inaccessible forever for everyone, including yourself. Now even you can't restore your data.
@@ -117,3 +119,7 @@ Avoid biometric authentication; it is not resistant to physical force. Someone c
 Some might use social engineering tactics instead of force, especially if they are in a position of authority. Always be aware of the tactics and mind games someone might play to get you to hand them sensitive information, passwords, and credentials.
 
 Understand your legal rights regarding self-defense and data protection in your jurisdiction. Have a list of emergency contacts, including legal counsel, who can provide immediate assistance in case of coercion or threats.
+
+---
+
+These were all I had on encrypting and securely storing sensitive information. The next chapter will be about footprints and fingerprints and what actions can be taken to minimize or even erase the trace you left behind when you didn't care much about privacy.
