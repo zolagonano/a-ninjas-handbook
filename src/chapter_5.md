@@ -63,3 +63,57 @@ But there are differences between container encryption tools like VeraCrypt and 
 | **Use Cases**        | Selective encryption, performance-sensitive    | Full volume encryption, cross-platform needs |
 
 When it comes to full disk encryption, having modern hardware really helps with the security and performance of encryption, as modern CPUs have built-in AES accelerating features allowing them to encrypt and decrypt AES without affecting the I/O performance as much. Also, most modern devices have TPMs (Trusted Platform Modules) which are hardware microcontrollers designed to enhance security at the hardware level by providing a secure environment for generating, storing, and managing cryptographic keys.
+
+## Keep your Back Ups Off site and Encrypted
+
+Most important thing about taking back ups of your data is that they need to be stored off-site, other wise you just made copy of your data, it is not back up. A good back-up can be restored even if your whole house got burnt down, and it should be restored only by you not anyone else.
+
+You need to always store your back ups securly encrypted, specially for things like crypto wallets, backups of GPG keys and passwords, etc. and it should be done strategicly and routinly. for some data that are really important to restore like crypto wallets and GPG keys, you might need to store them several places, including outside your house(it can be a cloud service as well, just in case of physical disasters), and in different devices like DVDs, usb sticks, hard drives, sd cards.
+
+For that you should first develop a back up strategy, to know what data is most important, how you going to perform back ups, how you are going to encrypt the backups and where you going to store them. and do this on a regular basis if the data tends to change, some datas might not need to be backed up weekly, but some do, some might change daily. it is based on your data and your back up strategy.
+
+A good and well known back up strategy is the 3-2-1 rule, it means:
+
+- **Three** copies of your data: one primary and two backups.
+- **Two** different media types: such as internal/external hard drives, SSDs, and cloud storage.
+- **One** copy off-site: store a backup in a remote location or in the cloud to protect against physical disasters.
+
+For the cloud storages it is better to use a reputable cloud storage, even something like Google Drive even though it's privacy is not good but it will be more reliable option compared to other stuff, or you can host your own cloud storage but it will never be as reliable as a huge company like google.
+
+You can Also invest in a NAS for automatic and centralized back ups and you can also configure it for RAID(Redundant Array of Independent Disks) for data redundancy and protection. and be sure to take snapshots and version your back ups to be able to restore them easily.
+
+And always regularly test your backups, make sure their valid, and restorable, otherwise you might be backup corrupted data for years and when you need to restore your data you can't, all your data is gone.
+
+And lastly develop a disaster recovary plan, ensure you have clear procedures for data restoration in case of data loss incidents. 
+
+## Five dollar wrench attack
+
+No matter how securely a hard drive is encrypted, it is always vulnrable to the 5$ wrench attack, meaning someone can always beat you up with a 5$ wrench to give up your passwords. but how it can be prevented? well it is complicated but there are some things you can do.
+
+### 1. Have a kill switch
+
+Creating a kill switch system in which if a specific password is entered the key file is permanetly wiped could save your data, by making it unaccesibale forever for everyone including yourself. Now even you can't restore your data.
+
+Or you can create a panic button instead, in case of something like kidnapping it would alert the authorities. it all boils down to your own unique threat model, based on the threats that might target your data you might need to change this to suit the situation.
+
+### 2. Have a decoy system
+
+You can create fake wallets and fake accounts and reveal those instead of the real ones, for example some activists have created a version of telegram called partisan telegram to help belarus protesters. the way it works is you can set a lock on your telegram and have multiple pin codes on it and program each pin code to do a certain things, for example if you enter pin "1234" it will wipe all data and send a message to everyone to alert them, but if you enter "1349" it will show a decoy account and if you enter "6782" it will function normally.
+
+These decoy systems can really help with such situtations like a protest where you might get arrested or have your devices searched, combining them with kill switches can both fool the attacker and at the same time delete all the datas.
+
+### 3. Reduce the value of target
+
+Store minimal sensetive data on the devices that are most vulnrable to this kind of physical attacks, for example you don't need so many sensetive data on the phone you take out with yourself. frequently back up sensetive data securly to a secure location, it can be physical location or a remote cloud. so they're not all in one place and they're not always with you.
+
+### 4. Use multi factor authentications for sensetive datas
+
+Use physical authentication devices like YubiKey that require both possession of the token and a PIN or password. and keep them at a safe place, This way your data is not accessible without the authentication device, you can hand them the passwords but they still won't be able to get inside.
+
+And avoid biometric authentications, it is not that resistant against physical forces, some one can forcefully use your fingerprint if they need to.
+
+### 5. Be aware of social engineering tactics
+
+Some might use social engineering tactics instead of force specially if they in position of authority. always be aware of the tactics and mind games someone might play to get you to hand them sensetive information or your passwords and credentials.
+
+Also Understand your legal rights regarding self-defense and data protection in your jurisdiction and Have a list of emergency contacts, including legal counsel, who can provide immediate assistance in case of coercion or threats.
