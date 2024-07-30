@@ -23,3 +23,15 @@ How can you separate your fingerprints? Here are some tips, but you should take 
 - **Use fingerprint-resistant tools**: Use tools like Tor Browser, a hardened Firefox, Whonix OS, etc.
 
 There are analysis algorithms to match these unique behaviors to other users and accurately pinpoint the user who has the same behaviors and fingerprint. Even if such algorithms are not used by authorities, they exist, and they can be used. So they might and will be used, just like how they're used nowadays for marketing and advertisement purposes. Most of the time, privacy is about preventing such things from happening.
+
+## Erasing Your Old Footprints
+
+Although it is hard, it is not fully impossible. You can still remove some of your footprints that you left behind years before. First, you need to see what identity you want to wipe out. Then start creating a full list of everywhere you have signed up, posted something, or bought something. An easy way to gather this data would be going through your emails—all of them—and seeing what websites have sent you emails for logins and sign-ups. List them all.
+
+Then you can go to each website. If they allow you to delete your account, delete it. For cases like Twitter and other social media, the best approach would be to first delete everything—comments, posts, profile pictures, bio, location, etc.—and wait for a few weeks. Then delete the account. This will allow the crawlers and search engines to update their information on the account, so your old posts won't show up in search results after you delete your account.
+
+For some websites and services that don't allow you to delete your account, first change all your information on them, then email them to delete your data. In most cases, they will. For the data that you didn't put out there, you can send a DMCA notice and ask them to take down your data. You can do this to take down your data off the search engines as well.
+
+There are some services that can automatically delete you off the internet as well. After you manually delete everything, you can use services like "DeleteMe" to delete everything else. They can also delete and notify you if future information is out on you.
+
+After deleting everything, try to forget it. Do not play around with it anymore if you want the identity to be erased from the internet. Live your life and let it die, hopefully. Also, take notes for the next identity so you won't need to do this again. Make sure you always provide little to no sensitive and unnecessary information when you create and use accounts, and be very minimalist about creating accounts. Only create one if you absolutely need to. Most of the time, you don't. Or if you want to try it out, create a quick one-time identity to test things out.
