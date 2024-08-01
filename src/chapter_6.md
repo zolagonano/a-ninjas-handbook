@@ -74,3 +74,16 @@ AudioContext fingerprinting uses the AudioContext API to generate a unique ident
 
 Also, the Battery Status API, Device Memory and Hardware Concurrency, Installed Fonts, Network Information API, Touch and Pointer Events, Applications and Uses, and user behaviors such as the way they use the mouse and keyboard, etc., can be used to create a unique fingerprint as well.
 
+## Browser Hardening or Tor Browser
+
+You don't need to use Tor Browser for activities that are tied to your real identity or that are not meant to be anonymous. But hardening a browser, on the other hand, can help a lot more with your privacy concerns by making each browser profile dedicated to one identity and hardening it based on that identity's needs and your threat models.
+
+The way that Tor Browser works is to make you like everybody else on the Tor network. If you use Tor Browser to check in on your bank account or anything else that is tied to a real identity, then you're even more unique than before. Also, the important thing is that you should not change anything in Tor Browser; any slight changes, like installing a plugin or changing settings, can make you much more unique than you would have been without Tor Browser.
+
+But hardening a browser does give you a unique fingerprint, and that is right. However, it also can provide you more security and privacy if you use it correctly, meaning each browser profile should be set up for one specific task or identity. For example, you can have one hardened Firefox profile for watching YouTube and listening to music on SoundCloud, one for your online identities and anything related to that, and one for your real identity. This way, you can choose what task or identity needs are and set up your browser based on those needs.
+
+For hardening browsers, there are a lot of resources out there, especially for Firefox. For example, for Firefox, there is Arkenfox, which provides you a list of carefully selected options and settings for Firefox to enhance its privacy. Using something like Brave for general usage is good too, as it has pretty decent privacy settings and features by default.
+
+You can have multiple browsers for different needs as well, for example, hardened Firefox profiles for different tasks that require specific setups, Brave for general usage, and Tor Browser for when you need to stay anonymous.
+
+It always boils down to your threat model and your specific needs, so always take actions based on that and save yourself a lot of hassles and mistakes too.
