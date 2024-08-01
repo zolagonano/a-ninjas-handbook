@@ -87,3 +87,8 @@ For hardening browsers, there are a lot of resources out there, especially for F
 You can have multiple browsers for different needs as well, for example, hardened Firefox profiles for different tasks that require specific setups, Brave for general usage, and Tor Browser for when you need to stay anonymous.
 
 It always boils down to your threat model and your specific needs, so always take actions based on that and save yourself a lot of hassles and mistakes too.
+
+---
+
+That’s it for this chapter. In the next chapter, we will cover creating an anonymous identity, performing tasks anonymously, and maintaining that anonymity.
+
