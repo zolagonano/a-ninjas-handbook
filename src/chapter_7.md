@@ -154,3 +154,117 @@ For activities that require the highest level of anonymity, such as whistleblowi
 - **Geolocation**: Disable GPS, Wi-Fi, and Bluetooth on your device. Use location spoofing tools to mask your actual location.
 - **Operational Security**: Maintain strict OpSec practices, such as never using your real identity, avoiding linking different online identities, and being cautious about the information you share.
 
+## Anonymizing Tools
+
+To stay anonymous online, you will need to use different tools based on your needs and situations. Not every tool will necessarily improve your anonymity if used without need. Here are some key anonymizing tools categorized by their function and use case:
+
+### 1. Browsers
+
+- **Tor Browser**
+  - **Use Case**: High-level anonymity needs, such as accessing the dark web or conducting sensitive research.
+  - **Features**: Routes your internet traffic through the Tor network, masking your IP address and encrypting your traffic multiple times.
+
+- **Brave Browser**
+  - **Use Case**: General privacy-focused browsing for everyday use.
+  - **Features**: Built-in ad blocker, tracker blocker, and the ability to use Tor for private tabs.
+
+- **Hardened Firefox Browser**
+  - **Use Case**: Highly customizable and can be great if fingerprinting is not your main concern.
+  - **Features**: Can be set up based on your needs and can provide great anti-tracking features if hardened correctly.
+
+### 2. VPN (Virtual Private Network)
+
+- **Reputable VPN Providers**
+  - **Use Case**: Masking your IP address and encrypting your internet traffic.
+  - **Features**: No-logs policies, multiple server locations, and additional security features like double VPN and kill switches.
+
+- **Self-Hosted VPNs**
+  - **Use Case**: Great for bypassing censorship as you can run protocols that have greater obfuscation and are less likely to be blocked by firewalls.
+  - **Features**: Can help bypass censorship; no one else can control and access the data passing through the VPN other than you.
+
+### 3. Email Services
+
+- **ProtonMail**
+  - **Use Case**: Secure, encrypted email communication.
+  - **Features**: End-to-end encryption, based in Switzerland, supports PGP encryption.
+
+- **Tutanota**
+  - **Use Case**: Privacy-focused email service.
+  - **Features**: End-to-end encryption, no tracking, built-in encryption for calendars and contacts.
+
+- **Disposable Email Services (Guerrilla Mail, 10 Minute Mail)**
+  - **Use Case**: Temporary email addresses for short-term use.
+  - **Features**: Provides anonymous, temporary email addresses that self-destruct after a set period.
+
+### 4. Messaging Apps
+
+- **Signal**
+  - **Use Case**: Secure messaging for personal or professional use.
+  - **Features**: End-to-end encryption, open source, self-destructing messages.
+
+- **Briar**
+  - **Use Case**: Censorship-resistant encrypted messaging via Bluetooth, Wi-Fi, Tor, with privacy built-in.
+  - **Features**: Great for communicating securely in places with no internet or high censorship.
+
+### 5. Operating Systems
+
+- **Tails**
+  - **Use Case**: High-security needs, such as whistleblowing or sensitive journalism.
+  - **Features**: Live operating system that runs from a USB stick, leaves no trace, routes all traffic through Tor.
+
+- **Qubes OS**
+  - **Use Case**: Secure, compartmentalized computing.
+  - **Features**: Uses virtualization to create isolated environments for different tasks, reducing the risk of compromise.
+
+- **Whonix OS**
+  - **Use Case**: A security-focused operating system designed to ensure maximum anonymity and privacy. It can also be used along with Qubes OS for additional security and isolation.
+  - **Features**: Uses virtualization to create isolated environments for different tasks, reducing the risk of compromise.
+
+### 6. File Sharing and Storage
+
+- **OnionShare**
+  - **Use Case**: Securely sharing files anonymously.
+  - **Features**: Uses Tor to create a temporary, anonymous file-sharing server.
+
+- **ProtonDrive**
+  - **Use Case**: Encrypted cloud storage.
+  - **Features**: End-to-end encryption, integrated with ProtonMail for secure file sharing.
+
+### 7. Metadata Removal Tools
+
+- **ExifTool**
+  - **Use Case**: Removing metadata from files before sharing.
+  - **Features**: Command-line tool for viewing, editing, and removing metadata from various file types.
+
+### 8. Search Engines
+
+- **DuckDuckGo**
+  - **Use Case**: Privacy-focused web searches.
+  - **Features**: Does not track search history, anonymizes user information.
+
+- **Startpage**
+  - **Use Case**: Anonymous web searches using Google results.
+  - **Features**: No tracking, IP anonymization, private search queries.
+
+### 9. Device and Network Security
+
+- **MAC Address Randomization**
+  - **Use Case**: Preventing tracking of your physical device.
+  - **Features**: Changes your device’s MAC address to avoid identification on networks.
+
+- **Public Wi-Fi Caution**
+  - **Use Case**: Reducing risk when using public Wi-Fi.
+  - **Features**: Always use a VPN, avoid accessing sensitive accounts, and consider using a travel router for added security.
+
+### 10. Behavioral Anonymizing Tools
+
+- **Typing Randomizers and Virtual Keyboards**
+  - **Use Case**: Preventing identification through keystroke dynamics.
+  - **Features**: Randomizes typing patterns or uses on-screen keyboards to avoid tracking.
+
+- **Mouse Movement Anonymizers**
+  - **Use Case**: Obfuscating mouse movement patterns.
+  - **Features**: Tools that standardize or randomize mouse movements.
+
+Not all of these tools are needed, nor are they guaranteed to remain effective over time. The world is constantly changing, so always research and keep yourself updated about privacy and security news and new tools. These companies may also change their policies or effectiveness over time. If you read this book years later, do some research, but the concepts should remain the same, even if the names of the tools have changed.
+
