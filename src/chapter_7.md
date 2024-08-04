@@ -268,3 +268,50 @@ To stay anonymous online, you will need to use different tools based on your nee
 
 Not all of these tools are needed, nor are they guaranteed to remain effective over time. The world is constantly changing, so always research and keep yourself updated about privacy and security news and new tools. These companies may also change their policies or effectiveness over time. If you read this book years later, do some research, but the concepts should remain the same, even if the names of the tools have changed.
 
+## Purchasing Anonymously
+
+Sometimes, for your activities, you might need to buy things anonymously online, such as a VPS (Virtual Private Server) to host your own VPN or cloud storage, or you might want to buy a VOIP number anonymously to sign up for Signal or Twitter, or pay for your VPN service. In these cases, you cannot pay with PayPal or credit cards or debit cards, as they are easily trackable. Also, you cannot pay with most cryptocurrencies, as they are worse than fiat and PayPal. For PayPal and credit cards, there should be a court order or permit to see who has paid, but for Bitcoin, well, it is a public ledger; everyone can see where the money comes from and where it goes. Everything is transparent. Most popular cryptocurrencies are like that. Your Bitcoin address is not tied to your name directly, that is correct, but you have to buy it from an exchange first or someone sends you some, and the moment you spend your cryptos, it's obvious whose they were. There are some methods like coin mixing, which is not legal in most countries because you're mixing your coins with others' coins.
+
+But there are cryptocurrencies that are meant to be anonymous, like Monero or Zcash (as these two are the most popular privacy coins on the market). Here's how they work:
+
+### Monero (XMR):
+
+**How it Works:**
+
+1. **Stealth Addresses**: Monero uses stealth addresses to ensure that transactions cannot be linked back to the recipient. A unique one-time address is created for each transaction, which hides the recipient's actual address.
+
+2. **Ring Signatures**: This cryptographic technique allows a group of users to sign a transaction without revealing which member of the group actually signed it. In a Monero transaction, multiple possible sources of funds are included in the transaction, making it unclear which source is the actual sender.
+
+3. **Ring Confidential Transactions (RingCT)**: This feature hides the amount being transacted. RingCT ensures that the values in a transaction are hidden from everyone except the parties involved, preventing third parties from knowing the amount of money being sent.
+
+4. **Kovri Project**: Monero plans to integrate the Kovri project, which will route and encrypt transactions through I2P (Invisible Internet Project) nodes, further obscuring the transaction metadata such as IP addresses.
+
+**Why It’s Anonymous:**
+
+- **Obscured Addresses**: Stealth addresses ensure that only the sender and recipient know where the funds are going.
+- **Hidden Transaction Amounts**: RingCT hides the amount of every transaction.
+- **Unlinkable Transactions**: Ring signatures make it impossible to determine the actual source of funds.
+- **Additional Layer of Privacy**: The Kovri project adds an extra layer of anonymity by masking transaction origins through I2P.
+
+### Zcash (ZEC):
+
+**How It Works:**
+
+1. **Zero-Knowledge Proofs (zk-SNARKs)**: Zcash uses a form of zero-knowledge proofs called zk-SNARKs (Zero-Knowledge Succinct Non-Interactive Arguments of Knowledge) to enable fully anonymous transactions. These proofs allow one party to prove to another that a statement is true without revealing any information beyond the veracity of the statement itself.
+
+2. **Shielded Addresses**: Zcash offers two types of addresses: transparent addresses (t-addresses) and shielded addresses (z-addresses). Transactions between shielded addresses are completely private and do not reveal the sender, recipient, or amount being transacted.
+
+3. **Selective Disclosure**: Users can choose to disclose transaction details to third parties (e.g., for auditing purposes) while keeping the rest of the network unaware.
+
+**Why It’s Anonymous:**
+
+- **Private Transactions**: zk-SNARKs allow transactions to be verified without revealing any transaction details.
+- **Shielded Transactions**: Transactions between shielded addresses hide the sender, recipient, and transaction amount.
+- **Flexibility**: Users can opt for transparent transactions when privacy is not needed or use shielded transactions for full anonymity.
+- **Selective Transparency**: Users can disclose transaction details when necessary without compromising overall privacy.
+
+But there are many more privacy coins as well, but if a coin is not well known in the market, most websites probably won't accept it as payments. The acceptance of privacy coins can be limited, and their use for online purchases might be restricted compared to more well-known cryptocurrencies, especially when governments try to regulate these coins or, if they can't, they will try to eliminate them.
+
+Another payment method is cash. Cash money is as private as Monero; I would say Monero is the cash equivalent of cryptocurrencies. Cash transactions do not require personal information, and there is no way to trace them back to you. Also, more importantly, cash is accepted almost everywhere. Some websites like MallwadVPN allow you to send them cash for the VPNs.
+
+Also, you can get prepaid cards with cash for online purchases as well. This won’t link them to your identity if they are bought without providing personal information and they’re paid with cash.
