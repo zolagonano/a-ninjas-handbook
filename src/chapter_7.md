@@ -315,3 +315,7 @@ But there are many more privacy coins as well, but if a coin is not well known i
 Another payment method is cash. Cash money is as private as Monero; I would say Monero is the cash equivalent of cryptocurrencies. Cash transactions do not require personal information, and there is no way to trace them back to you. Also, more importantly, cash is accepted almost everywhere. Some websites like MallwadVPN allow you to send them cash for the VPNs.
 
 Also, you can get prepaid cards with cash for online purchases as well. This won’t link them to your identity if they are bought without providing personal information and they’re paid with cash.
+
+---
+
+These were some starting points for beginning an anonymous life; it obviously goes way deeper than this. It changes your lifestyle, your communications, everything. The next chapter will be about the skills you need to learn to maintain this anonymity and privacy and to move forward.
