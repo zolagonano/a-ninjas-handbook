@@ -114,3 +114,43 @@ Consistency in these practices is key to avoiding de-anonymization and maintaini
 
 You might not need to worry about all of these behaviors; see which ones seem more important to your activity. For example, if you're a writer or whistleblower, your writing style can matter a lot more than other things.
 
+## Creating an Environment for Your Activities
+
+Every identity needs an environment for their work and activities, and the setup of that environment is heavily dependent on your threat model. Not every identity and activity requires maximum caution and privacy, but some might, based on what you want to do.
+
+You need to tailor this setup to your own situation, but I will show some examples of different environments based on the sensitivity of activities. These may not necessarily suit your specific situation.
+
+### Low-Sensitivity Activities
+
+For activities that do not require high levels of anonymity, such as casual browsing or social media use under a pseudonym, a basic setup may be enough:
+
+- **Browser**: Use a privacy-focused browser like Firefox with privacy extensions such as uBlock Origin, and apply some hardening using Arkenfox, to make it both usable and private. Also, use different hardened profiles for different pseudonyms and activities.
+- **VPN**: A reputable VPN service to mask your IP address and encrypt your traffic.
+- **Email**: Use a privacy-respecting email service like ProtonMail or Tutanota.
+- **Search Engine**: Use DuckDuckGo or Startpage to avoid tracking by mainstream search engines.
+- **Privacy-Friendly Front-Ends**: There are privacy-friendly front-ends for YouTube, Twitter, Instagram, etc., that allow you to browse these websites without having an account on them or sharing too much data.
+
+### Medium-Sensitivity Activities
+
+For activities that require moderate anonymity, such as maintaining a blog or participating in forums on sensitive topics, a more cautious setup is necessary:
+
+- **Browser**: Use the Tor Browser for anonymity and protection against tracking.
+- **VPN**: Combine a VPN with the Tor network for added security. This can impact your network bandwidth, so if bandwidth is a concern, Tor with obfuscation might be sufficient.
+- **Email**: Use secure email services and consider disposable email addresses for one-time communications.
+- **Device**: Consider using a dedicated device or a virtual machine for these activities to avoid cross-contamination with your primary activities.
+- **Communication**: Use encrypted messaging apps like Signal or Matrix (although not as secure as Signal, it allows sign-up with email and you can host your own home server, so it might be better for privacy and anonymity) for secure communication.
+
+### High-Sensitivity Activities
+
+For activities that require the highest level of anonymity, such as whistleblowing, investigative journalism, or activism in a dictatorship regime, a maximum security environment is needed:
+
+- **Operating System**: Use a live operating system like Tails, which can be run from a USB stick and leaves no trace after use, or set up an encrypted virtual machine with Whonix OS.
+- **Browser**: Strictly use the Tor Browser and follow Tor usage best practices.
+- **VPN**: Use a multi-hop VPN service and route your traffic through the Tor network for layered security.
+- **Email and Communication**: Use encrypted email services, PGP encryption for emails, and secure messaging apps like Signal or Wire. Consider using anonymous email services for additional protection.
+- **Device**: Use a dedicated, secure device that is only used for these high-sensitivity activities. Regularly wipe and reformat the device to remove any potential traces.
+- **File Sharing**: Use encrypted file-sharing services and tools like OnionShare to share files anonymously.
+- **Metadata Removal**: Always strip metadata from files and photos before sharing them.
+- **Geolocation**: Disable GPS, Wi-Fi, and Bluetooth on your device. Use location spoofing tools to mask your actual location.
+- **Operational Security**: Maintain strict OpSec practices, such as never using your real identity, avoiding linking different online identities, and being cautious about the information you share.
+
