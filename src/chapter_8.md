@@ -125,3 +125,11 @@ There are many resources on these two topics as well. I highly recommend learnin
 ---
 
 And the skills don't end here. Anything you learn comes in handy. As I said at the beginning of this chapter, the more skills and knowledge you have, the more you can combine them and create unique and better solutions to a problem.
+
+## Communities
+
+We, as humans, are meant to work in communities—together, helping one another and building on top of each other's work. So, it is important to have a community when starting a journey, to ask questions, get help, and give help if you can.
+
+There are a lot of privacy-focused communities, like PrivacyGuides, PrivSec, Techlore, and many more. Being present in these communities will teach you a lot just by reading what others are talking about. I personally learned a lot from the good folks at PrivacyGuides, and it really helped with my own privacy and security journey when I started.
+
+If you're reading this book in English, then you have enough English skills to communicate with others or at least read their messages without problem.
