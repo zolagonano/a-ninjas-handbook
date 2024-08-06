@@ -81,3 +81,47 @@ Having the ability to manage the data and information you share or store is one 
 6. **Backup and Recovery**: Ensure backups are encrypted to protect data from unauthorized access. Regularly back up and follow a good backup strategy (explained in Chapter 5).
 
 These are some of the skills and practices for data management. There are a lot more, and you can find more or create your own.
+
+## Technical Skills
+
+To obtain and maintain privacy and security requires a lot of technical skills, from programming to understanding networks and operating systems, encryption, and more.
+
+So it should be obvious that you need to learn or level up your technical skills every day. I will point out some starting skills to jump-start your learning journey if you don't know where to start:
+
+### Encryption
+
+Encryption is an inseparable part of privacy, security, and anonymity; it’s the chain that connects these three together. Without encryption, there can be no security on the internet. It is really important to know what you're doing when it comes to encryption, as it can go wrong easily due to the complexities of mathematical attacks on encryption algorithms. You don't have to become a cryptographer or cryptography analyst; just having some basic understanding is enough.
+
+You might want to learn about different algorithms, how they operate differently, what attacks can target encrypted information or the encryption process, what algorithms are not safe to use, which implementations of an algorithm are audited and good to use, and what schemes are best suited for your encryption needs. These are things you need to know.
+
+A good starting course on encryption would be the "[Introduction to Cryptography by Christof Paar](https://www.youtube.com/@introductiontocryptography4223)," which can benefit you greatly in terms of a deep understanding of cryptographic algorithms. The course is freely available on YouTube. If it weren't, you could find it by searching elsewhere.
+
+Having a deep understanding of encryption will also help with understanding other tools such as the Tor network, VPNs, multi-factor authentication devices, and more.
+
+### Networks
+
+All of your data are passing through computer networks every second. Knowing how these networks work and operate is a must to prevent attacks, leaks, and more. You need to know what is happening when you tunnel your network through VPNs or Tor. You should be able to monitor them for potential leaks, set up firewalls, block unauthorized access to your data, and configure your network for better security and privacy by default.
+
+There are many courses from beginner to advanced on computer networks that you can take. As I said before, feel free to pirate them if you can’t afford them. There should also be plenty of good resources and courses for free on YouTube and other websites. What matters is learning and understanding the subjects. Much of it will come from real-life practice and experience as well.
+
+### Programming
+
+To automate tasks like backups, create tools for your specific needs, or read and check source codes of other programs, you need to know some programming. Learning one scripting language like Python or Bash scripting (especially for Linux users) and one system-level language like Rust (which has built-in safety features) would be more than enough.
+
+There are a ton of resources, many of them high-quality and free, for programming that you can use to learn. It will make your journey much easier if you can automate repetitive tasks or build the tools you need that don’t exist. Also, be sure to adopt secure coding practices as you learn.
+
+### Operating Systems
+
+Having a deep understanding of your operating system is essential to obtain privacy and security. Especially learning and understanding Linux, as Linux is free and open-source, well-audited, and less likely to have zero-day vulnerabilities compared to Windows. It can be extremely customizable—you can make it operate exactly as you want, not more, not less. This is a great feature when it comes to operating systems. Also, most tools are available for Linux and other Unix-like operating systems.
+
+There are courses like Linux Essentials for Beginners and LPIC1, LPIC2, LPIC3, and Red Hat courses for more advanced users. Make sure to start one of these courses if you decide to install Linux for your operating system, and follow the order from beginner to advanced as it can get confusing.
+
+### Virtualization and Containerization
+
+Understanding how virtualization and containerization systems and tools work will help you a lot with isolating different identities, separating tasks, and preventing malicious code from running on your actual system.
+
+There are many resources on these two topics as well. I highly recommend learning about them as they are very useful tools for activity isolation, which is a key part of maintaining good security and privacy, in my opinion.
+
+---
+
+And the skills don't end here. Anything you learn comes in handy. As I said at the beginning of this chapter, the more skills and knowledge you have, the more you can combine them and create unique and better solutions to a problem.
