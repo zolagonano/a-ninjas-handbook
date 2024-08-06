@@ -9,3 +9,4 @@
 - [Chapter 6](./chapter_6.md)
 - [Chapter 7](./chapter_7.md)
 - [Chapter 8](./chapter_8.md)
+- [Acknowledgements](./acknowledgements.md)
