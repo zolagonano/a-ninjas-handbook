@@ -63,3 +63,21 @@ Follow reputable tech news websites to see what is happening in the world. Also,
 ### Gather and Organize Information
 
 When you research a subject, try gathering the information at first, then go through it, double-check it and organize it. It will be nice of you if you share it with others, making a positive change by sharing your newly earned knowledge.
+
+## Data Management Skills
+
+Having the ability to manage the data and information you share or store is one of the biggest skills required to maintain privacy and anonymity and keep good OPSEC. It includes practices and strategies to protect personal information from getting into the wrong hands, misuse, or breaches. Effective data management is a must in order to maintain data privacy and security. Here are some key skills needed for data management:
+
+1. **Data Minimization**: Only share, collect, process, and store the minimum data necessary for a specific purpose. Avoid giving unnecessary personal information and opt for services that require minimal data. Share only essential information and avoid oversharing.
+
+2. **Encryption**: Encrypt data at rest to protect data stored on devices or servers. Encrypt data in transit to protect data as it moves across networks. Use end-to-end encryption to ensure only the communicating users can read the messages.
+
+3. **Access Control and Authentication**: Use multi-factor authentication systems to prevent unauthorized access to data and use **Role-Based Access Control (RBAC)** to limit access to data based on user roles (great for separating identities and users on a device).
+
+4. **Data Retention Policies**: Define how long data should be kept and when it should be deleted. For example, you might want to delete all cookies on your browser every day and your server logs every week. It depends on your needs. Configure systems to delete data after a certain period and periodically review and delete unnecessary data.
+
+5. **Metadata Management**: Metadata can reveal information about the data itself, like the creation date, author, or location. Always remove metadata from files before sharing them.
+
+6. **Backup and Recovery**: Ensure backups are encrypted to protect data from unauthorized access. Regularly back up and follow a good backup strategy (explained in Chapter 5).
+
+These are some of the skills and practices for data management. There are a lot more, and you can find more or create your own.
