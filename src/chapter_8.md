@@ -146,3 +146,6 @@ Erase and wipe the backups permanently. If you can, find a lawyer and discuss th
 
 Live your life again with the hope that nothing goes wrong, because you did all you could.
 
+---
+
+This is all I had for this book. As I said in the introduction, my hope has been that it can help those good people who are making positive changes in the world and need to start worrying about their privacy and protection. It’s not that nice and pretty a world where every good action is rewarded and appreciated. In some places, doing a nice thing can cost you your life. As disturbing as it is, it is true and should be accepted and fought against. I know this is not a complete book that covers everything, but I think I’ve done the best I could to cover most useful and necessary things. There might be updated revisions of this book in the future that cover more stuff and more important stuff.
