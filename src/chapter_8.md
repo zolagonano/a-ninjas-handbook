@@ -35,3 +35,31 @@ Paying close attention to detail ensures thorough security checks and correct im
 Persistently testing and evaluating systems helps you find hidden vulnerabilities you didn’t know existed. The continuous improvement that comes with persistent testing will enhance your security and privacy measures over time.
 
 Risk assessment helps you understand potential consequences and implement more effective protections.
+
+## Researching Skills
+
+Researching is the biggest part of learning, in my opinion at least. You cannot gather information about a subject if you can't research properly for it. If you are able to research effectively from credible sources, extract relevant information, and synthesize that knowledge to form an understanding, that will not only help with your privacy and security journey but any other field as well.
+
+### Using Search Engines Effectively
+
+Search engines like Google not only can help with your research about privacy and security but research about yourself. If you can use them effectively, you can see what information of yours is indexed on them. This can be done by learning advanced search operators, such as `site:`, `inurl:`, `intitle:`, and Boolean operators (AND, OR, NOT) to filter the search results.
+
+And also nowadays most search engines are basically artificial intelligences, so learning prompt engineering can help you a lot as well.
+
+### Checking Sources
+
+Checking for the credibility of websites and authors of an article or information and looking for reputable sources which have a good track of accuracy and reliability can save you from gathering wrong and inaccurate information about a subject.
+
+To verify information, one thing you can do is to cross-reference it with multiple sources if possible, this will ensure its consistency and accuracy along multiple sources.
+
+### Scholarly Databases
+
+You can also use databases like Google Scholar, JSTOR, and IEEE Xplore to find peer-reviewed articles on privacy and security. And feel free to pirate them if you find it ethical (I find it ethical; knowledge and science shouldn't be behind paywalls, it is what drives societies forward).
+
+### Follow Tech News Websites
+
+Follow reputable tech news websites to see what is happening in the world. Also, following some security blogs with reputable authors can help a lot. You can follow the Hacker News (Y Combinator) feed with keywords related to privacy, security, anonymity, and tools like Tor, PGP, etc., to get new articles on them, usually from reputable authors with accurate and in-detail information. Also, you can follow forums and group chats dedicated to privacy and security, for example, Reddit’s r/privacy or the Matrix group chat of Privacy Guides and PrivSec, or Techlore and Surveillance Report on YouTube.
+
+### Gather and Organize Information
+
+When you research a subject, try gathering the information at first, then go through it, double-check it and organize it. It will be nice of you if you share it with others, making a positive change by sharing your newly earned knowledge.
