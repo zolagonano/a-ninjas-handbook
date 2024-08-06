@@ -133,3 +133,16 @@ We, as humans, are meant to work in communities—together, helping one another 
 There are a lot of privacy-focused communities, like PrivacyGuides, PrivSec, Techlore, and many more. Being present in these communities will teach you a lot just by reading what others are talking about. I personally learned a lot from the good folks at PrivacyGuides, and it really helped with my own privacy and security journey when I started.
 
 If you're reading this book in English, then you have enough English skills to communicate with others or at least read their messages without problem.
+
+## If You Think You Need to Erase Yourself from the Internet
+
+Sometimes paranoia may take over and make you think you need to wipe yourself out of existence, and that is okay and most of the time reasonable.
+
+The first step in this situation is to stay calm and not panic. Panicking leads to irrational thinking and poor judgment.
+
+Delete everything you can from the internet related to the identity you want to wipe out. Dispose of devices you might have dedicated to that identity. If you really want to erase everything, physically destroy hard drives, SSDs, and other storage devices.
+
+Erase and wipe the backups permanently. If you can, find a lawyer and discuss the situation with them.
+
+Live your life again with the hope that nothing goes wrong, because you did all you could.
+
