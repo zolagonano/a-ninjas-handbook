@@ -10,3 +10,4 @@
 - [Chapter 7](./chapter_7.md)
 - [Chapter 8](./chapter_8.md)
 - [Acknowledgements](./acknowledgements.md)
+- [Donations and Support](./donations_and_support.md)
