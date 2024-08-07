@@ -1,3 +1,5 @@
+# Donations and Support
+
 This book is free and open source and will stay free and open source because what's important to me is that it is read and comes in useful. I’m not looking for profit, but I can't deny that every donation, no matter the amount, or even an appreciation email, allows me to put more time into projects like this.
 
 So here are every cryptocurrency I could think of. If you would like to donate, here are the ways to do so:
