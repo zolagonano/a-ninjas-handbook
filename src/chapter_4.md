@@ -94,6 +94,40 @@ For me, a VPN provider should have the following characteristics:
 
 These characteristics can vary based on the user's threat model. Not everyone cares about multi-hops and no-logs policies. You should always act based on your threat model.
 
+## Operating Systems Security/Privacy
+
+Operating systems are software that communicate with the hardware and manage hardware resources, such as memory allocation, task scheduling, I/O processes, and more. While these are core functionalities of an operating system (or its kernel), layers of software stack up on the kernel to create a usable operating system, which can greatly impact the privacy and security of its users.
+
+The main operating systems I will discuss are iOS, Android, Linux, Windows, and macOS:
+
+### Android
+
+The **Android Open Source Project (AOSP)** is a decent and secure operating system, featuring verified boots, app sandboxing (a crucial security feature), and a robust permission management system.
+
+However, when you buy an Android phone, the operating system on it is usually not vanilla Android. It is often modified with many additional apps and features primarily used for gathering data from user activities.
+
+There are custom ROMs designed to address this issue. Even without custom ROMs, many unnecessary features can be disabled to minimize data collection.
+
+More important than data collection is ensuring the phone is updated with the latest security patches if available, and avoiding rooting (as it can break app sandboxing and compromise the phone's security).
+
+On some phones, like Google Pixels, you can install GrapheneOS, a very secure and privacy-respecting Android custom ROM.
+
+### iOS
+
+Unlike Android, iOS is not open source, so we cannot be sure how it operates internally, and there is not much you can do to change it if you have an iPhone. However, you can tweak the settings and disable unnecessary features to harden it for your needs.
+
+### Windows
+
+Microsoft Windows is one of the most common PC operating systems, but its security and privacy are not admirable. It sends a lot of telemetry data to Microsoft, it is closed source, making it harder to find and fix security bugs, so many zero-day vulnerabilities exist for Windows.
+
+There might be settings to tweak and adjust, but the safer option would be to install a Linux distribution and use Windows in an isolated virtual machine if you absolutely need to have a Windows machine.
+
+### Linux
+
+Linux is a free and open-source operating system with excellent privacy features. Because it is open source and has been around for a long time, very few zero-day vulnerabilities exist for it.
+
+Linux has thousands of distributions to choose from, making it suitable for any needs you might have. There are also many variations of the Linux kernel itself, such as linux-hardened, which is designed to have more security features enabled by default.
+
 ---
 
 These were the bare minimums of privacy and security. As the book progresses, the chapters will become more technically advanced and more focused on anonymity. The next chapter will be all about encryption, as it is the building block of security in the online world.
