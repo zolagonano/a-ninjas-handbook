@@ -13,4 +13,6 @@ command = "mdbook-mermaid"
 [output]
 
 [output.html]
+git-repository-url = "https://github.com/zolagonano/a-ninjas-handbook"
+mathjax-support = true
 additional-js = ["mermaid.min.js", "mermaid-init.js"]
