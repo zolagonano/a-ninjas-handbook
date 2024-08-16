@@ -203,7 +203,7 @@ $$
 - **Select a Security-Focused Distribution**: Choose distributions like Qubes OS or Whonix for more security and privacy features.
 - **Regular Updates**: Keep the system and software updated to protect against known vulnerabilities.
 
-## Encrypyion 
+## Encryption
 
 **Cryptographic Analysis**: Validated algorithms gone through extensive cryptanalysis, including:
 
