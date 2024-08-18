@@ -4,7 +4,7 @@ In 2012, the FBI caught a hacker with the nickname w0rmer after he hacked severa
 
 The electrical tape on your webcam and your Tor browser inside Whonix OS can't help you if you share too much about yourself, if you over time tend to expose your real identity piece by piece. Having good opsec often means having control and awareness of what you're sharing when talking to people or when posting online.
 
-## Identify the sensetive data and information
+## Identify the sensitive data and information
 
 The first step in improving your OPSEC is identifying the data that is sensitive to you. To do this, you need to refer to your threat model. Assess what threats are common and which data would have the most severe consequences if it falls into the wrong hands. Then, prioritize the information based on the severity of the consequences.
 
